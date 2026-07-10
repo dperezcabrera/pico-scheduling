@@ -1,0 +1,22 @@
+# pico-scheduling
+
+> Scheduled method execution for the Pico ecosystem via APScheduler
+
+## Docs
+
+- [Home](https://dperezcabrera.github.io/pico-scheduling/)
+- [Getting Started](https://dperezcabrera.github.io/pico-scheduling/getting-started/)
+- [Architecture](https://dperezcabrera.github.io/pico-scheduling/architecture/)
+- [index](https://dperezcabrera.github.io/pico-scheduling/reference/)
+- [API](https://dperezcabrera.github.io/pico-scheduling/reference/api/)
+- [AI Coding Skills](https://dperezcabrera.github.io/pico-scheduling/skills/)
+- [FAQ](https://dperezcabrera.github.io/pico-scheduling/faq/)
+- [Troubleshooting](https://dperezcabrera.github.io/pico-scheduling/troubleshooting/)
+- [Changelog](https://dperezcabrera.github.io/pico-scheduling/CHANGELOG/)
+
+## For agents
+
+- [Full docs in one file](https://dperezcabrera.github.io/pico-scheduling/llms-full.txt)
+- [AGENTS.md (conventions and boundaries)](https://raw.githubusercontent.com/dperezcabrera/pico-scheduling/main/AGENTS.md)
+- [Flagship use case (whole ecosystem wired)](https://dperezcabrera.github.io/pico-boot/flagship/)
+- [PyPI](https://pypi.org/project/pico-scheduling/)
