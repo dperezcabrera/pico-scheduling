@@ -26,3 +26,5 @@ class Reports:
 ```
 
 No wiring: pico-boot discovers the module, the registrar discovers the methods, jobs run on a background scheduler and shut down with the container.
+
+**See it in context**: the [flagship use case](https://dperezcabrera.github.io/pico-boot/flagship/) wires this module into a full order platform together with the rest of the ecosystem.
