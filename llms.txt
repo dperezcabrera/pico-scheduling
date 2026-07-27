@@ -1,0 +1,36 @@
+# pico-scheduling
+
+> Scheduled method execution for the Pico ecosystem via APScheduler
+
+Install: `pip install pico-scheduling`. Import surface: `from pico_scheduling import ...`.
+
+## Usage
+
+```python
+from pico_ioc import component
+from pico_scheduling import scheduled
+
+@component
+class Reports:
+    @scheduled(every=300)          # every 5 minutes
+    def refresh_cache(self): ...
+
+    @scheduled(cron="0 3 * * *")   # 03:00 daily
+    async def nightly_rollup(self): ...
+```
+
+## Public API
+
+- `class SchedulingSettings` — ``enabled: false`` disables every ``@scheduled`` job.
+- `scheduled(*, every: float | None=None, cron: str | None=None)` — Run a component method on a schedule.
+- `class SchedulerRegistrar`
+
+## Docs
+
+- docs/CHANGELOG.md
+- docs/architecture.md
+- docs/faq.md
+- docs/getting-started.md
+- docs/reference/ (2 pages)
+- docs/skills.md
+- docs/troubleshooting.md
