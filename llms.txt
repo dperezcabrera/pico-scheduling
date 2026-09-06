@@ -21,9 +21,9 @@ class Reports:
 
 ## Public API
 
+- `class SchedulerRegistrar`
 - `class SchedulingSettings` — ``enabled: false`` disables every ``@scheduled`` job.
 - `scheduled(*, every: float | None=None, cron: str | None=None)` — Run a component method on a schedule.
-- `class SchedulerRegistrar`
 
 ## Docs
 
